@@ -1,0 +1,19 @@
+import os
+import logging
+
+BASEDIR = os.path.abspath('.')
+
+DNSPOD = {
+    'id': '',
+    'token': '',
+    'domain': 'blog.imaojia.com',
+    'sub_domain': 'blog',
+    'domain_id': ''
+}
+
+IP_RECORD = os.path.join(BASEDIR, 'ip.txt')
+SLEEP_TIME = 3
+
+LOG_LEVEL = logging.INFO
+LOG_PATH = os.path.join(BASEDIR, 'logs/')
+

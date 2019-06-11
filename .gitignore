@@ -1,0 +1,13 @@
+.idea
+db.sqlite3
+title_change.sh
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.db
+dist
+build
+__pycache__
+config
+logs
